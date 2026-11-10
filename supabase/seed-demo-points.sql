@@ -1,0 +1,46 @@
+-- Seed generado desde src/data/dataset-demo-inundaciones-tigre.csv.
+-- Solo contiene puntos sintéticos y se puede volver a ejecutar.
+begin;
+insert into public.puntos_demo (name, locality, latitude, longitude, category, value, event_date, description, is_demo, source)
+values
+  ('Punto demo 01', 'Tigre centro', -34.42420, -58.57910, 'high', 82, '2025-08-12'::date, 'Punto sintetico de demostracion 01', true, 'dataset_sintetico_poc'),
+  ('Punto demo 02', 'Rincón de Milberg', -34.39710, -58.62530, 'moderate', 54, '2025-06-04'::date, 'Punto sintetico de demostracion 02', true, 'dataset_sintetico_poc'),
+  ('Punto demo 03', 'Las Tunas', -34.45020, -58.66010, 'high', 72, '2025-03-19'::date, 'Punto sintetico de demostracion 03', true, 'dataset_sintetico_poc'),
+  ('Punto demo 04', 'Ricardo Rojas', -34.45720, -58.67980, 'low', 28, '2025-02-22'::date, 'Punto sintetico de demostracion 04', true, 'dataset_sintetico_poc'),
+  ('Punto demo 05', 'El Talar', -34.46980, -58.64970, 'moderate', 61, '2025-01-07'::date, 'Punto sintetico de demostracion 05', true, 'dataset_sintetico_poc'),
+  ('Punto demo 06', 'Troncos del Talar', -34.45990, -58.62060, 'moderate', 35, '2024-12-18'::date, 'Punto sintetico de demostracion 06', true, 'dataset_sintetico_poc'),
+  ('Punto demo 07', 'Benavídez', -34.41020, -58.71980, 'low', 19, '2024-11-15'::date, 'Punto sintetico de demostracion 07', true, 'dataset_sintetico_poc'),
+  ('Punto demo 08', 'Don Torcuato', -34.50100, -58.62540, 'high', 91, '2024-10-02'::date, 'Punto sintetico de demostracion 08', true, 'dataset_sintetico_poc'),
+  ('Punto demo 09', 'Tigre centro', -34.43140, -58.57020, 'moderate', 43, '2024-09-26'::date, 'Punto sintetico de demostracion 09', true, 'dataset_sintetico_poc'),
+  ('Punto demo 10', 'Rincón de Milberg', -34.38980, -58.63840, 'moderate', 66, '2024-09-04'::date, 'Punto sintetico de demostracion 10', true, 'dataset_sintetico_poc'),
+  ('Punto demo 11', 'Las Tunas', -34.44220, -58.65050, 'high', 88, '2024-08-17'::date, 'Punto sintetico de demostracion 11', true, 'dataset_sintetico_poc'),
+  ('Punto demo 12', 'Ricardo Rojas', -34.46510, -58.69020, 'low', 30, '2024-07-30'::date, 'Punto sintetico de demostracion 12', true, 'dataset_sintetico_poc'),
+  ('Punto demo 13', 'El Talar', -34.47520, -58.64150, 'moderate', 58, '2024-07-12'::date, 'Punto sintetico de demostracion 13', true, 'dataset_sintetico_poc'),
+  ('Punto demo 14', 'Troncos del Talar', -34.45110, -58.63050, 'high', 76, '2024-06-28'::date, 'Punto sintetico de demostracion 14', true, 'dataset_sintetico_poc'),
+  ('Punto demo 15', 'Benavídez', -34.41940, -58.70930, 'low', 21, '2024-06-10'::date, 'Punto sintetico de demostracion 15', true, 'dataset_sintetico_poc'),
+  ('Punto demo 16', 'Don Torcuato', -34.49020, -58.63510, 'moderate', 49, '2024-05-21'::date, 'Punto sintetico de demostracion 16', true, 'dataset_sintetico_poc'),
+  ('Punto demo 17', 'Tigre centro', -34.41880, -58.58720, 'high', 94, '2024-05-02'::date, 'Punto sintetico de demostracion 17', true, 'dataset_sintetico_poc'),
+  ('Punto demo 18', 'Rincón de Milberg', -34.40320, -58.61640, 'moderate', 38, '2024-04-19'::date, 'Punto sintetico de demostracion 18', true, 'dataset_sintetico_poc'),
+  ('Punto demo 19', 'Las Tunas', -34.45910, -58.66820, 'high', 67, '2024-03-31'::date, 'Punto sintetico de demostracion 19', true, 'dataset_sintetico_poc'),
+  ('Punto demo 20', 'Ricardo Rojas', -34.44970, -58.67260, 'low', 25, '2024-03-10'::date, 'Punto sintetico de demostracion 20', true, 'dataset_sintetico_poc'),
+  ('Punto demo 21', 'El Talar', -34.46230, -58.65820, 'moderate', 55, '2024-02-24'::date, 'Punto sintetico de demostracion 21', true, 'dataset_sintetico_poc'),
+  ('Punto demo 22', 'Troncos del Talar', -34.46620, -58.61410, 'high', 80, '2024-02-08'::date, 'Punto sintetico de demostracion 22', true, 'dataset_sintetico_poc'),
+  ('Punto demo 23', 'Benavídez', -34.40280, -58.72700, 'low', 33, '2024-01-25'::date, 'Punto sintetico de demostracion 23', true, 'dataset_sintetico_poc'),
+  ('Punto demo 24', 'Don Torcuato', -34.51020, -58.63810, 'moderate', 62, '2024-01-12'::date, 'Punto sintetico de demostracion 24', true, 'dataset_sintetico_poc'),
+  ('Punto demo 25', 'Tigre centro', -34.42610, -58.56860, 'high', 73, '2023-12-29'::date, 'Punto sintetico de demostracion 25', true, 'dataset_sintetico_poc'),
+  ('Punto demo 26', 'Rincón de Milberg', -34.39230, -58.63110, 'moderate', 44, '2023-12-14'::date, 'Punto sintetico de demostracion 26', true, 'dataset_sintetico_poc'),
+  ('Punto demo 27', 'Las Tunas', -34.44750, -58.67140, 'low', 17, '2023-11-28'::date, 'Punto sintetico de demostracion 27', true, 'dataset_sintetico_poc'),
+  ('Punto demo 28', 'Ricardo Rojas', -34.45340, -58.68680, 'high', 85, '2023-11-11'::date, 'Punto sintetico de demostracion 28', true, 'dataset_sintetico_poc'),
+  ('Punto demo 29', 'El Talar', -34.48130, -58.65220, 'moderate', 51, '2023-10-27'::date, 'Punto sintetico de demostracion 29', true, 'dataset_sintetico_poc'),
+  ('Punto demo 30', 'Troncos del Talar', -34.45570, -58.62590, 'low', 29, '2023-10-09'::date, 'Punto sintetico de demostracion 30', true, 'dataset_sintetico_poc')
+on conflict (name) do update set
+  locality = excluded.locality,
+  latitude = excluded.latitude,
+  longitude = excluded.longitude,
+  category = excluded.category,
+  value = excluded.value,
+  event_date = excluded.event_date,
+  description = excluded.description,
+  is_demo = excluded.is_demo,
+  source = excluded.source;
+commit;
